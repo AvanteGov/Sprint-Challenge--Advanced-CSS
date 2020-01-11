@@ -205,6 +205,7 @@ p {
   font-size: 1.5rem;
   text-decoration: none;
   color: black;
+  vertical-align: middle;
 }
 @media (max-width: 650px) {
   .topBar nav a {
@@ -313,6 +314,7 @@ p {
   text-decoration: none;
   color: white;
   kerning: auto;
+  vertical-align: middle;
 }
 @media (max-width: 650px) {
   .home .walk .walk-text .btn span {
