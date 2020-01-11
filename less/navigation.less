@@ -15,6 +15,10 @@
         
     }
 
+    @media (@phone){
+        height: 35vh;
+    }
+
     nav{
         margin-left: auto;
         margin-right: auto;
@@ -25,12 +29,21 @@
         display: flex;
         justify-content: space-around;
 
+        @media (@phone){
+            flex-direction: column;
+            width: 100%; 
+        }
+
         a{
             font-size: 1.5rem;
             text-decoration: none;
             color: black;
 
-            
+            @media (@phone){ 
+                height: 100px;
+                text-align: center;
+                width: 100%; 
+            }
         }
         
         a:hover{
