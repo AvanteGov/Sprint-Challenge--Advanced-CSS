@@ -337,6 +337,37 @@ p {
   height: auto;
   border-radius: 10px;
 }
+.spaceKid {
+  width: auto;
+  height: 300px;
+  border-radius: 5%;
+}
+.saturn {
+  width: auto;
+  height: 300px;
+  border-radius: 5%;
+}
+.aboutPrograms {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70vh;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.aboutPrograms div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.aboutPrograms div div {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.saturnTrip {
+  flex-direction: row-reverse;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
